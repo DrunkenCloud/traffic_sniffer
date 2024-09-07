@@ -1,0 +1,10 @@
+[package]
+name = "traffic_sniffer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pnet = { version = "0.31.0", features = ["std"] }
+csv = "1.1"
+ctrlc = "3.2"
+chrono = "0.4"
